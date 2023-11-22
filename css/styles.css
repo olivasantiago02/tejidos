@@ -1,0 +1,243 @@
+/* Estilos generales */
+
+body {
+    background-image: url(../images/fondo.jpg);    
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
+    padding: 20px 0;
+    color: #fff; /* Texto en color blanco */
+  }
+  
+  .containerf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons img,
+  .social-links img {
+    max-width: 40px; /* Ajusta el tamaño de los iconos según sea necesario */
+    margin-right: 10px;
+  }
+  
+  .footer-info p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-info h4 {
+    margin: 0;
+  }
+
+  #contact-section {
+    background-color: #f8f9fa; /* Color de fondo claro para la sección */
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, p {
+    color: #333;
+  }
+  
+  h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para el título */
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin: 10px 0;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #3498db; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #267bbd; /* Cambia el color de fondo al pasar el mouse */
+  }
+  /* Estilos para dispositivos más pequeños (pantallas móviles) */
+  
+  @media (max-width: 780px) {
+    /* Centra el logo y aumenta su tamaño en pantallas pequeñas */
+    .navbar-brand img {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    /* Alinea el contenido del navbar al centro en pantallas pequeñas */
+    .navbar-collapse {
+      text-align: center;
+    }
+  
+    /* Agrega sombras al navbar y modifica el color de fondo en pantallas pequeñas */
+    .navbar {
+      box-shadow: 0 4px 6px -6px #222;
+      background-color: #3498db; /* Cambia el color según tus preferencias */
+    }
+  
+    /* Estilos para la sección "Por Qué Emprender" */
+  
+    #por-que-emprender {
+      margin-top: 40px;
+    }
+  
+    #por-que-emprender h2 {
+      color: rgb(51, 51, 51); /* Cambia el color del texto según tus preferencias */
+    }
+  
+    #por-que-emprender p {
+      color: rgb(0, 0, 0); /* Cambia el color del texto según tus preferencias */
+      font-size: 20px;
+      background-color: burlywood;
+      padding: 10px;
+    }
+  
+    /* Estilos para las imágenes con sombras */
+  
+    .img-with-shadow {
+        border-radius: 10px; /* Agrega bordes redondeados según tus preferencias */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajusta la sombra según tus preferencias */
+        margin-bottom: 20px;
+      }
+    
+      .image-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+     /* Estilos para la sección "Lo que Ofrecemos" en dispositivos móviles */
+
+  #lo-que-ofrecemos {
+    padding: 20px 10px; /* Ajusta el espaciado según tus preferencias */
+    background-color: azure;
+  }
+
+  .section-title {
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para el título */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .category {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .category h3 {
+    color: #333;
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente según tus preferencias */
+    margin-bottom: 10px;
+  }
+
+  .category p {
+    color: #000000;
+    font-size: 1em; /* Ajusta el tamaño de la fuente según tus preferencias */
+  }
+
+  .category-icon img {
+    max-width: 60px; /* Ajusta el tamaño del icono según sea necesario */
+  }
+
+  footer {
+    padding: 10px 0;
+  }
+
+  .containerf {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons,
+  .footer-info,
+  .social-links {
+    margin-bottom: 10px;
+  }
+
+  h1, h2, p {
+    text-align: center;
+  }
+
+  .step-image, .step-video {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Estilos para la sección "Proceso" */
+
+#process-section {
+  background-color: cornsilk;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 30px;
+  text-align: justify;
+  max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+  margin: 0 auto; /* Centra el contenido en pantallas más grandes */
+  }
+  
+ 
+  
+  h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para el título */
+  }
+  
+  .step-image, .step-video {
+    margin: 20px 0;
+  }
+  
+  .step-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  video {
+    width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #contact-section {
+    padding: 20px;
+  }
+
+  h1, h2, p {
+    text-align: left;
+  }
+
+  .contact-form {
+    text-align: left;
+  }
+
+
+
