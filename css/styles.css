@@ -1,12 +1,71 @@
 /* Estilos generales */
 
 body {
-    background-image: url(../images/fondo.jpg);    
+    margin: 0;   
+    padding: 0;
+}
+
+.containerp {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; /* Ajusta el relleno según sea necesario */
+}
+
+#por-que-emprender {
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px; /* Tamaño de fuente del título */
+  color: #333;
+  margin-bottom: 20px; /* Espaciado inferior del título */
+}
+
+p {
+  font-size: 16px; /* Tamaño de fuente del párrafo */
+  color: #666;
+  margin-bottom: 30px; /* Espaciado inferior del párrafo */
+}
+
+/* Estilos generales para todas las pantallas */
+.containeri {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; /* Ajusta el relleno según sea necesario */
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px; /* Ajusta el tamaño de fuente del título según sea necesario */
+  color: #333;
+  margin-bottom: 30px; /* Ajusta el margen inferior según sea necesario */
+}
+
+.category {
+  text-align: center;
+  margin-bottom: 40px; /* Ajusta el margen inferior de cada categoría según sea necesario */
+}
+
+.category-icon img {
+  width: 80px; /* Ajusta el tamaño de los iconos según sea necesario */
+  height: auto;
+  margin-bottom: 10px; /* Ajusta el margen inferior del icono según sea necesario */
+}
+
+h3 {
+  font-size: 24px; /* Ajusta el tamaño de fuente del título de la categoría según sea necesario */
+  color: #333;
+  margin-bottom: 10px; /* Ajusta el margen inferior del título según sea necesario */
+}
+
+p {
+  font-size: 16px; /* Ajusta el tamaño de fuente del párrafo según sea necesario */
+  color: #666;
 }
 
 footer {
     background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
-    padding: 20px 0;
+    padding: 40px 0;
     color: #fff; /* Texto en color blanco */
   }
   
@@ -18,17 +77,18 @@ footer {
   
   .social-icons img,
   .social-links img {
-    max-width: 40px; /* Ajusta el tamaño de los iconos según sea necesario */
-    margin-right: 10px;
+    max-width: 60px; /* Ajusta el tamaño de los iconos según sea necesario */
+    margin-right: 20px;
   }
   
   .footer-info p {
     margin-bottom: 10px;
+    margin-left: 10px;
     color: #ccc;
   }
   
   .footer-info h4 {
-    margin: 0;
+    margin-left: 10px;
   }
 
   #contact-section {
@@ -84,6 +144,68 @@ footer {
   input[type="submit"]:hover {
     background-color: #267bbd; /* Cambia el color de fondo al pasar el mouse */
   }
+
+  /* Estilos generales para todas las pantallas */
+#process-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.step-image img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.step-video {
+  text-align: center;
+  margin: 20px 0;
+}
+
+  /* Media query para pantallas de más de 780px */
+@media (min-width: 780px) {
+  .image-container {
+    display: flex;
+    margin-top: 20px; /* Espaciado superior entre las imágenes */
+  }
+
+  .img-with-shadow {
+    width: 90%; /* Hace que las imágenes ocupen todo el ancho del contenedor */
+    max-width: 400px; /* Establece un ancho máximo para mantener la proporción */
+    height: auto;
+    margin-right: 20px; /* Espaciado entre las imágenes */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease-in-out; /* Transición suave al hacer hover */
+  }
+
+  .img-with-shadow:last-child {
+    margin-right: 0; /* Elimina el margen derecho para la última imagen */
+  }
+
+  .img-with-shadow:hover {
+    transform: scale(1.05); /* Agranda ligeramente la imagen al hacer hover */
+  }
+
+  .category {
+    display: inline-block;
+    margin-right: 20px;
+    width: 30%; /* Ajusta el ancho de cada categoría según sea necesario */
+    vertical-align: top;
+  }
+
+  .step-image img {
+    max-width: 400px;
+  }
+}
+
   /* Estilos para dispositivos más pequeños (pantallas móviles) */
   
   @media (max-width: 780px) {
